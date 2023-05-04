@@ -50,6 +50,7 @@ module.exports = {
 ```JS
 import {send} = from './request.mjs';
 export{ send,};
+```
 ### Using index.js to export module
 But seldom need to use this
 create a dir internals/index.js and put request.js into internals.   
