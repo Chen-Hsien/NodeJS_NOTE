@@ -52,7 +52,7 @@ import {send} = from './request.mjs';
 export{ send,};
 ```
 ### Using index.js to export module
-But seldom need to use this
+But seldom need to use this.   
 create a dir internals/index.js and put request.js into internals.   
 ```JS
 //index.js
@@ -64,4 +64,13 @@ const internals = require('./internals')
 function makeRequest(url, data){
 internals.request.send(url, data)
 }
+## NPM node package manager
+npm is the world's largest software registry.  
+### package.json
+* mark down which packages do project need to use and it's version
+### package-lock.json
+* mark down packages come from where
+### nodemon
+Simple monitor script for use during development of a Node.js app.  
+Add it in global to use it   
 
