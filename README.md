@@ -41,6 +41,26 @@ function send(url, data){
 console.log('Send Sth')
 }
 module.exports = {
-send,
+
 }
 ```
+### ES6
+* require -> import
+* module.exports = {} -> export {}
+```JS
+import {send} = from './request.mjs';
+export{ send,};
+### Using index.js to export module
+But seldom need to use this
+create a dir internals/index.js and put request.js into internals.   
+```JS
+//index.js
+module.exports ={
+...require('./request')
+}
+//https.js
+const internals = require('./internals')
+function makeRequest(url, data){
+internals.request.send(url, data)
+}
+
