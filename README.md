@@ -64,7 +64,7 @@ const internals = require('./internals')
 function makeRequest(url, data){
 internals.request.send(url, data)
 }
-
+```
 ## NPM node package manager
 npm is the world's largest software registry.  
 ### package.json
