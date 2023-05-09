@@ -116,7 +116,18 @@ app.use(cors()); //處理跨域請求, 當AJAX進來的request處於不同網域
 ```
 ### MVC Model View Control
 Model處理資料來源, Controller 處理邏輯
+來達到功能分離的優點.  
 
+### RESTFUL API 
+REporesentational    
+State.  
+Transfer.  
+* Use HTTP, JSON, URL
+* Endpoints are collections of data
+* Use GET, POST, PUT and DELETE
+* Client and server
+* Stateless and cacheable
+* 
 
 
 
