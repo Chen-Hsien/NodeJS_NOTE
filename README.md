@@ -76,3 +76,26 @@ Add it in global to use it
 
 ## Build Server with Express.js
 
+## NodeJS Package Management
+NPM Node Packagee Manager   
+### Semantic Version
+MAJOR version when you make incompatible API changes.  
+MINOR version when you add functionality in a backward compatible manner.  
+PATCH version when you make backward compatible bug fixes.  
+Example: 1.0.0 < 2.0.0 < 2.1.0 < 2.1.1.  
+### Package-lock.json and Versioning
+內紀錄更詳細的套件來源, 版本, 相依套件等資訊   
+而版本部分採用Semantic Version紀錄
+
+
+
+
+
+
+
+
+
+
+
+
+
